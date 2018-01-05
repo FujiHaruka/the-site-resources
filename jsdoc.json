@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "SignResource",
+            "name": "TheSignResource",
             "description": "",
             "extends": [
                 "Resource"
@@ -38,21 +38,21 @@
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "SignResource",
+                "name": "TheSignResource",
                 "description": "",
                 "parameters": [],
                 "examples": []
             }
         },
         {
-            "name": "SignResourceEntity",
+            "name": "TheSignResourceEntity",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "SignResourceEntity",
+                "name": "TheSignResourceEntity",
                 "description": "",
                 "parameters": [],
                 "examples": []
@@ -87,7 +87,7 @@
             }
         },
         {
-            "name": "SignResource",
+            "name": "TheSignResource",
             "description": "",
             "extends": [
                 "Resource"
@@ -96,21 +96,21 @@
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "SignResource",
+                "name": "TheSignResource",
                 "description": "",
                 "parameters": [],
                 "examples": []
             }
         },
         {
-            "name": "SignResourceEntity",
+            "name": "TheSignResourceEntity",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "SignResourceEntity",
+                "name": "TheSignResourceEntity",
                 "description": "",
                 "parameters": [],
                 "examples": []
