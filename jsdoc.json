@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "name": "TheAliasResource",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheAliasResource",
+                "description": "Resource for URL alias",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheAliasResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheAliasResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheAliasResource",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheAliasResource",
+                "description": "Resource for URL alias",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheAliasResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheAliasResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
