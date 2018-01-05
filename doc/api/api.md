@@ -1,4 +1,4 @@
-# the-site-resources@1.0.2
+# the-site-resources@1.0.3
 
 Resources for site
 
@@ -7,6 +7,10 @@ Resources for site
   + [new TheAliasResource()](#the-site-resources-classes-the-alias-resource-constructor)
 + [`TheAliasResourceEntity`](#the-site-resources-classes) Class
   + [new TheAliasResourceEntity()](#the-site-resources-classes-the-alias-resource-entity-constructor)
++ [`TheRoleResource`](#the-site-resources-classes) Class
+  + [new TheRoleResource()](#the-site-resources-classes-the-role-resource-constructor)
++ [`TheRoleResourceEntity`](#the-site-resources-classes) Class
+  + [new TheRoleResourceEntity()](#the-site-resources-classes-the-role-resource-entity-constructor)
 + [`TheSignResource`](#the-site-resources-classes) Class
   + [new TheSignResource()](#the-site-resources-classes-the-sign-resource-constructor)
 + [`TheSignResourceEntity`](#the-site-resources-classes) Class
@@ -47,6 +51,43 @@ Constructor of TheAliasResource class
 ### new TheAliasResourceEntity()
 
 Constructor of TheAliasResourceEntity class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheRoleResource` Class
+
+
+
+**Extends**: 
+
++ `Resource`
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-role-resource-constructor" ></a>
+
+### new TheRoleResource()
+
+Constructor of TheRoleResource class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheRoleResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-role-resource-entity-constructor" ></a>
+
+### new TheRoleResourceEntity()
+
+Constructor of TheRoleResourceEntity class
 
 
 

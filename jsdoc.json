@@ -29,6 +29,36 @@
             }
         },
         {
+            "name": "TheRoleResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheRoleResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheRoleResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheRoleResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
             "name": "TheSignResource",
             "description": "",
             "extends": [
@@ -81,6 +111,36 @@
             "fires": "",
             "constructor": {
                 "name": "TheAliasResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheRoleResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheRoleResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheRoleResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheRoleResourceEntity",
                 "description": "",
                 "parameters": [],
                 "examples": []
