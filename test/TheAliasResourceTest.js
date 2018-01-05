@@ -26,7 +26,7 @@ describe('the-alias-resource', () => {
     ok(alias.pathname)
 
     equal(
-      alias.urlFor({protocol: 'https', host: 'hoge'}).indexOf('https://hoge/a'),
+      alias.urlFor({protocol: 'https', host: 'hoge', query: {foo: 'bar'}}).indexOf('https://hoge/a'),
       0
     )
   })
