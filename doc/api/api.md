@@ -1,4 +1,4 @@
-# the-site-resources@1.0.3
+# the-site-resources@1.0.4
 
 Resources for site
 
@@ -15,6 +15,10 @@ Resources for site
   + [new TheSignResource()](#the-site-resources-classes-the-sign-resource-constructor)
 + [`TheSignResourceEntity`](#the-site-resources-classes) Class
   + [new TheSignResourceEntity()](#the-site-resources-classes-the-sign-resource-entity-constructor)
++ [`TheUserResource`](#the-site-resources-classes) Class
+  + [new TheUserResource()](#the-site-resources-classes-the-user-resource-constructor)
++ [`TheUserResourceEntity`](#the-site-resources-classes) Class
+  + [new TheUserResourceEntity()](#the-site-resources-classes-the-user-resource-entity-constructor)
 
 ## Functions
 
@@ -125,6 +129,43 @@ Constructor of TheSignResource class
 ### new TheSignResourceEntity()
 
 Constructor of TheSignResourceEntity class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheUserResource` Class
+
+
+
+**Extends**: 
+
++ `Resource`
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-user-resource-constructor" ></a>
+
+### new TheUserResource()
+
+Constructor of TheUserResource class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheUserResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-user-resource-entity-constructor" ></a>
+
+### new TheUserResourceEntity()
+
+Constructor of TheUserResourceEntity class
 
 
 
