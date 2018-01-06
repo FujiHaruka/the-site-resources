@@ -1,6 +1,6 @@
 {
   "name": "the-site-resources",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Resources for site",
   "main": "lib",
   "browser": "shim",
