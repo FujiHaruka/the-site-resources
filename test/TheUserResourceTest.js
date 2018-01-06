@@ -5,7 +5,8 @@
 'use strict'
 
 const TheUserResource = require('../lib/TheUserResource')
-const { ok, equal } = require('assert')
+const theDB = require('the-db')
+const {ok, equal} = require('assert')
 
 describe('the-user-resource', () => {
   before(() => {
@@ -14,8 +15,14 @@ describe('the-user-resource', () => {
   after(() => {
   })
 
-  it('Do test', () => {
+  it('Do test', async () => {
+    const db = theDB({
+      dialect: 'memory'
+    })
+    const User = db.load(TheUserResource, 'User')
 
+    const user01 = await User.create({name: 'hoge'})
+    equal(user01.displayName, 'hoge')
   })
 })
 
