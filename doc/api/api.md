@@ -1,4 +1,4 @@
-# the-site-resources@1.3.0
+# the-site-resources@1.3.1
 
 Resources for site
 

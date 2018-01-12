@@ -15,5 +15,11 @@ module.exports = {
   TheProfileResource,
   TheRoleResource,
   TheSignResource,
-  TheUserResource,
+  TheUserResource
 }
+
+exports.TheAliasResource = TheAliasResource
+exports.TheProfileResource = TheProfileResource
+exports.TheRoleResource = TheRoleResource
+exports.TheSignResource = TheSignResource
+exports.TheUserResource = TheUserResource
