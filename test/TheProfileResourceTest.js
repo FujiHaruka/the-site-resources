@@ -6,7 +6,7 @@
 
 const TheProfileResource = require('../lib/TheProfileResource')
 const TheUserResource = require('../lib/TheUserResource')
-const theDB = require('the-db')
+const theDB = require('the-db').default
 const {ok, equal} = require('assert')
 
 describe('the-profile-resource', () => {

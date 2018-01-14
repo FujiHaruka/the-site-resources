@@ -5,7 +5,7 @@
 'use strict'
 
 const TheAliasResource = require('../lib/TheAliasResource')
-const theDB = require('the-db')
+const theDB = require('the-db').default
 const {ok, equal} = require('assert')
 
 describe('the-alias-resource', () => {
