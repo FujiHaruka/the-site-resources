@@ -1,4 +1,4 @@
-# the-site-resources@2.0.0
+# the-site-resources@2.0.1
 
 Resources for site
 
@@ -7,6 +7,10 @@ Resources for site
   + [new TheAliasResource()](#the-site-resources-classes-the-alias-resource-constructor)
 + [`TheAliasResourceEntity`](#the-site-resources-classes) Class
   + [new TheAliasResourceEntity()](#the-site-resources-classes-the-alias-resource-entity-constructor)
++ [`TheHistoryResource`](#the-site-resources-classes) Class
+  + [new TheHistoryResource()](#the-site-resources-classes-the-history-resource-constructor)
++ [`TheHistoryResourceEntity`](#the-site-resources-classes) Class
+  + [new TheHistoryResourceEntity()](#the-site-resources-classes-the-history-resource-entity-constructor)
 + [`TheProfileResource`](#the-site-resources-classes) Class
   + [new TheProfileResource()](#the-site-resources-classes-the-profile-resource-constructor)
 + [`TheProfileResourceEntity`](#the-site-resources-classes) Class
@@ -59,6 +63,43 @@ Constructor of TheAliasResource class
 ### new TheAliasResourceEntity()
 
 Constructor of TheAliasResourceEntity class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheHistoryResource` Class
+
+
+
+**Extends**: 
+
++ `Resource`
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-history-resource-constructor" ></a>
+
+### new TheHistoryResource()
+
+Constructor of TheHistoryResource class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheHistoryResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-history-resource-entity-constructor" ></a>
+
+### new TheHistoryResourceEntity()
+
+Constructor of TheHistoryResourceEntity class
 
 
 

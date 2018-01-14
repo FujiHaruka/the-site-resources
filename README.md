@@ -112,7 +112,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-site-resources@2.0.0](./doc/api/api.md)
++ [the-site-resources@2.0.1](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

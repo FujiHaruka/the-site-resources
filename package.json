@@ -1,6 +1,6 @@
 {
   "name": "the-site-resources",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Resources for site",
   "main": "lib",
   "browser": "shim",
@@ -32,13 +32,13 @@
     "numeral": "^2.0.6",
     "the-error": "^1.4.4",
     "the-password": "^2.0.0",
-    "the-resource-base": "^1.0.2",
+    "the-resource-base": "^1.1.0",
     "the-site-util": "^1.5.0",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
-    "the-db": "^9.0.0",
+    "the-db": "^9.0.3",
     "the-script-build": "^2.0.3",
     "the-script-jsdoc": "^2.0.0",
     "the-script-release": "^1.0.6",

@@ -29,6 +29,36 @@
             }
         },
         {
+            "name": "TheHistoryResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheHistoryResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheHistoryResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheHistoryResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
             "name": "TheProfileResource",
             "description": "",
             "extends": [
@@ -171,6 +201,36 @@
             "fires": "",
             "constructor": {
                 "name": "TheAliasResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheHistoryResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheHistoryResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheHistoryResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheHistoryResourceEntity",
                 "description": "",
                 "parameters": [],
                 "examples": []
