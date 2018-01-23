@@ -29,6 +29,13 @@ describe('the-alias-resource', () => {
       alias.urlFor({protocol: 'https', host: 'hoge', query: {foo: 'bar'}}).indexOf('https://hoge/a'),
       0
     )
+
+    {
+
+      const {pathname, key} = await Alias.ofUrl(`http://example.com/foo/bar.json?a=b`)
+      ok(/json$/.test(pathname))
+      ok(/json$/.test(key))
+    }
   })
 })
 
