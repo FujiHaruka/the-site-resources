@@ -16,7 +16,7 @@
     "the-error": "^1.4.4",
     "the-password": "^2.0.0",
     "the-resource-base": "^1.2.3",
-    "the-site-util": "^1.7.0",
+    "the-site-util": "^1.7.1",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^1.0.0",
-    "the-templates": "^2.4.3"
+    "the-templates": "^2.5.1"
   },
   "engines": {
     "node": ">=8",
