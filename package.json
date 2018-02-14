@@ -16,18 +16,18 @@
     "the-error": "^1.4.4",
     "the-password": "^2.0.0",
     "the-resource-base": "^1.2.5",
-    "the-site-util": "^1.7.1",
+    "the-site-util": "^1.7.3",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "mocha": "^5.0.0",
-    "the-db": "^9.0.9",
-    "the-script-build": "^2.1.0",
+    "mocha": "^5.0.1",
+    "the-db": "^9.0.10",
+    "the-script-build": "^3.1.3",
     "the-script-jsdoc": "^2.0.0",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^1.0.0",
-    "the-templates": "^2.5.5"
+    "the-templates": "^3.0.0"
   },
   "engines": {
     "node": ">=8",
