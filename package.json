@@ -14,7 +14,7 @@
   "dependencies": {
     "numeral": "^2.0.6",
     "the-cache": "^2.0.1",
-    "the-error": "^1.4.4",
+    "the-error": "^2.0.0",
     "the-password": "^2.0.0",
     "the-resource-base": "^1.2.5",
     "the-site-util": "^1.7.3",

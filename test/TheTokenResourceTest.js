@@ -30,6 +30,9 @@ describe('the-token-resource', () => {
 
     const caught = await Token.verify(token).catch((e) => e)
     ok(caught instanceof Error)
+
+    const caught2 = await Token.verify('').catch((e) => e)
+    ok(caught2 instanceof Error)
   })
 })
 

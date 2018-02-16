@@ -1,4 +1,4 @@
-# the-site-resources@2.2.0
+# the-site-resources@2.2.1
 
 Resources for site
 
@@ -23,6 +23,16 @@ Resources for site
   + [new TheSignResource()](#the-site-resources-classes-the-sign-resource-constructor)
 + [`TheSignResourceEntity`](#the-site-resources-classes) Class
   + [new TheSignResourceEntity()](#the-site-resources-classes-the-sign-resource-entity-constructor)
++ [`TheTokenResource`](#the-site-resources-classes) Class
+  + [new TheTokenResource()](#the-site-resources-classes-the-token-resource-constructor)
+  + [resource.consume()](#the-site-resources-classes-the-token-resource-consume)
+  + [resource.verify(token)](#the-site-resources-classes-the-token-resource-verify)
+  + [resource.consume()](#the-site-resources-classes-the-token-resource-consume)
+  + [resource.verify(token)](#the-site-resources-classes-the-token-resource-verify)
++ [`TheTokenResourceEntity`](#the-site-resources-classes) Class
+  + [new TheTokenResourceEntity()](#the-site-resources-classes-the-token-resource-entity-constructor)
+  + [entity.renew()](#the-site-resources-classes-the-token-resource-entity-renew)
+  + [entity.renew()](#the-site-resources-classes-the-token-resource-entity-renew)
 + [`TheUserResource`](#the-site-resources-classes) Class
   + [new TheUserResource()](#the-site-resources-classes-the-user-resource-constructor)
 + [`TheUserResourceEntity`](#the-site-resources-classes) Class
@@ -213,6 +223,89 @@ Constructor of TheSignResource class
 Constructor of TheSignResourceEntity class
 
 
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheTokenResource` Class
+
+
+
+**Extends**: 
+
++ `Resource`
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-constructor" ></a>
+
+### new TheTokenResource()
+
+Constructor of TheTokenResource class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-consume" ></a>
+
+### resource.consume() -> `Promise.<TheTokenResourceEntity>`
+
+Verify and renew token
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-verify" ></a>
+
+### resource.verify(token) -> `Promise.<TheTokenResourceEntity>`
+
+Verify token
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| token | string | Token text |
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-consume" ></a>
+
+### resource.consume() -> `Promise.<TheTokenResourceEntity>`
+
+Verify and renew token
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-verify" ></a>
+
+### resource.verify(token) -> `Promise.<TheTokenResourceEntity>`
+
+Verify token
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| token | string | Token text |
+
+
+<a class='md-heading-link' name="the-site-resources-classes"></a>
+
+## `TheTokenResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-entity-constructor" ></a>
+
+### new TheTokenResourceEntity()
+
+Constructor of TheTokenResourceEntity class
+
+
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-entity-renew" ></a>
+
+### entity.renew() -> `Promise.<void>`
+
+Renew token text
+
+<a class='md-heading-link' name="the-site-resources-classes-the-token-resource-entity-renew" ></a>
+
+### entity.renew() -> `Promise.<void>`
+
+Renew token text
 
 <a class='md-heading-link' name="the-site-resources-classes"></a>
 
