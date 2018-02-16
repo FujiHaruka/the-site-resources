@@ -149,6 +149,130 @@
             }
         },
         {
+            "name": "TheTokenResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheTokenResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "consume",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify and renew token",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "verify",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify token",
+                    "parameters": [
+                        {
+                            "name": "token",
+                            "type": "string",
+                            "description": "Token text",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": "Detected token"
+                    }
+                },
+                {
+                    "name": "consume",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify and renew token",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "verify",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify token",
+                    "parameters": [
+                        {
+                            "name": "token",
+                            "type": "string",
+                            "description": "Token text",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": "Detected token"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "TheTokenResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheTokenResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "renew",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Renew token text",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "renew",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Renew token text",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
+        },
+        {
             "name": "TheUserResource",
             "description": "",
             "extends": [
@@ -325,6 +449,130 @@
                 "parameters": [],
                 "examples": []
             }
+        },
+        {
+            "name": "TheTokenResource",
+            "description": "",
+            "extends": [
+                "Resource"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheTokenResource",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "consume",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify and renew token",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "verify",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify token",
+                    "parameters": [
+                        {
+                            "name": "token",
+                            "type": "string",
+                            "description": "Token text",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": "Detected token"
+                    }
+                },
+                {
+                    "name": "consume",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify and renew token",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "verify",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Verify token",
+                    "parameters": [
+                        {
+                            "name": "token",
+                            "type": "string",
+                            "description": "Token text",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<TheTokenResourceEntity>",
+                        "description": "Detected token"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "TheTokenResourceEntity",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheTokenResourceEntity",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "renew",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Renew token text",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "renew",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Renew token text",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<void>",
+                        "description": ""
+                    }
+                }
+            ]
         },
         {
             "name": "TheUserResource",
