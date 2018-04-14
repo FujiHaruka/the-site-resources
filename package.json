@@ -18,7 +18,7 @@
     "the-error": "^2.0.0",
     "the-password": "^2.0.0",
     "the-resource-base": "^1.2.19",
-    "the-site-util": "^1.9.1",
+    "the-site-util": "^1.9.2",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
