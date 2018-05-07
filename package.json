@@ -17,19 +17,19 @@
     "the-check": "^1.2.3",
     "the-error": "^2.0.0",
     "the-password": "^2.0.0",
-    "the-resource-base": "^1.2.19",
-    "the-site-util": "^1.9.2",
+    "the-resource-base": "^1.2.23",
+    "the-site-util": "^1.9.7",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "mocha": "^5.1.0",
-    "the-db": "^9.3.35",
-    "the-script-build": "^3.1.7",
+    "mocha": "^5.1.1",
+    "the-db": "^9.3.40",
+    "the-script-build": "^3.1.9",
     "the-script-jsdoc": "^2.0.2",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
-    "the-script-update": "^1.0.0",
-    "the-templates": "^3.1.7"
+    "the-script-update": "^2.0.0",
+    "the-templates": "^3.1.8"
   },
   "engines": {
     "node": ">=8",
